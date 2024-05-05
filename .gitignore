@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignora los archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignora los directorios de los nodos
+node_modules/
+
+# Ignora los archivos de registro
+*.log
+
+# Ignora los archivos de configuración de Sass
+.sass-cache/
+
+# Ignora los archivos de configuración de Visual Studio Code
+.vscode/
+
+# Ignora los archivos de construcción
+dist/
+build/
+
+# Ignora los archivos de configuración de paquetes
+package-lock.json
+yarn.lock

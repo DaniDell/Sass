@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: $color-primario;
+    color: $color-secundario;
+
+    h1 {
+        margin: 0;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 60px;
+        }
+
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            font-size: 1.5em;
+
+            li {
+                margin-right: 3rem;
+                animation: fadeIn 1s ease-in-out;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #ddd;
+                    }
+                }
+            }
+        }
+    }
+}

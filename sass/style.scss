@@ -1,0 +1,45 @@
+// Definición de colores
+$color-primario: #9c4e75;
+$color-secundario: #bdc3c7;
+$color-terciario: #6b6261;
+$color-footer: #333;
+
+@import 'navbar';
+@import 'container';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    color: $color-primario;
+    font-size: 2.4em;
+}
+
+p {
+    color: $color-terciario;
+    font-size: 1em; 
+}
+
+a {
+    color: $color-secundario;
+    font-size: 1em; 
+}
+
+footer {
+    background-color: $color-primario;
+    color: $color-secundario;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.2em;
+    p{ color: $color-secundario;}
+}
