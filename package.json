@@ -1,9 +1,14 @@
 {
   "devDependencies": {
+    "purgecss": "^6.0.0",
     "sass": "^1.76.0"
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
     "bootstrap-sass": "^3.4.3"
+  },
+  "scripts": {
+    "watch": "sass --watch sass:css",
+    "purgecss": "purgecss --css css/style.css --content ./index.html --output css/purged.css"
   }
 }

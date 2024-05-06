@@ -9,22 +9,22 @@ $color-footer: #333;
 @import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat','Roboto', sans-serif;
     height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 10;
 }
 
 
 
 h2 {
     color: $color-primario;
-    font-size: 2.4em;
+    font-size: 4em;
 }
 
 p {
     color: $color-terciario;
-    font-size: 1em; 
+    font-size: 1.4em; 
 }
 
 a {
