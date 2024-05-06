@@ -6,6 +6,7 @@ $color-footer: #333;
 
 @import 'navbar';
 @import 'container';
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 body {
     font-family: 'Roboto', sans-serif;
